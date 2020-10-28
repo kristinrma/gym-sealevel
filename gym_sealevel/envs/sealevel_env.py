@@ -26,10 +26,10 @@ class SealevelEnv(gym.Env):
        
     def step(self, action):
         if action == 0:
-            self.curr_spending += 0 # no cost to doing nothing
+            self.curr_spending += 0 #zero cost to doing nothing
             # self.curr_slr += 
         if action == 1:
-            # self.curr_spending += 
+            # self.curr_spending += #don't have costs for each action
             # self.curr_slr +=
         if action == 2:
             # self.curr_spending +=
